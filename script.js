@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const movieCard = document.createElement("div");
             movieCard.classList.add("movie-card");
             movieCard.innerHTML = `
-                <img src="${movie.Poster}" alt="${movie.Title} Poster">
+                <img src="${movie.Poster === 'N/A' ? 'https://amit8127.github.io/Frontend-3-Contest-1-September/Assets/posterNA.jpg' : movie.Poster}" alt="${movie.Title} Poster">
                 <h2><span>${resultNo}</span>${movie.Title}</h2>
                 `;
             results.appendChild(movieCard);
