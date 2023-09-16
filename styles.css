@@ -134,6 +134,16 @@ span {
   -webkit-text-stroke-color: #0296e5;
 }
 
+p {
+  color: white;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 h3 {
   color: white;
   font-size: 20px;
